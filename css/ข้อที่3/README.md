@@ -8,4 +8,4 @@
 ---
 ![picpra gob](picname3.png)
 ---
-# [file การบ้าน](/hw_css03.html)
+# [file การบ้าน](hw_css03.html)
