@@ -7,6 +7,6 @@
 - มีเงา + ขอบมนเหมือนเดิม
 - รูปต้องต่อสนิทกับ container
 ---
-![picpra gob](/picname.png)
+![picpra gob](picname.png)
 ---
 # [file การบ้าน](/hw_css01.html)

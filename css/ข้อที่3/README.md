@@ -6,6 +6,6 @@
 - ให้สร้าง web รูปแบบเดียวกับ facebook register
 - แบบ responsive
 ---
-![picpra gob](/picname3.png)
+![picpra gob](picname3.png)
 ---
 # [file การบ้าน](/hw_css03.html)

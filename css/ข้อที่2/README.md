@@ -7,6 +7,6 @@
 - ห้ามแก้ไข style ที่ให้ + ห้ามใส่ style ใน tag
 - ตรึง 5 กล่องเล็กตรงกลาง ไม่เลื่อนตาม scroll bar
 ---
-![picpra gob](/picname2.png)
+![picpra gob](picname2.png)
 ---
 # [file การบ้าน](/hw_css02.html)
