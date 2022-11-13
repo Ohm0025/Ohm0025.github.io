@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JsExercise06.3</title>
+</head>
+<body>
+    <script>
+        let input = Number(prompt('put your score : '));
+        let grade = "";
+        if(input >= 80){
+            grade = "A";
+        }else if(input < 80 && input >=70){
+            grade = "B";
+        }else if(input < 70 && input >=60){
+            grade = "C";
+        }
+        else if(input < 60 && input >=50){
+            grade = "D";
+        }else{
+            grade = "F";
+        }
+        alert('your grade is '+grade);
+    </script>
+</body>
+</html>
