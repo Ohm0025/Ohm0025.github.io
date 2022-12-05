@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JsExercise10</title>
+</head>
+<body>
+    <script>
+        let check = prompt('ใครเป็นคน login : ');
+        if(check == 'Admin'){
+            let pass = prompt('กรุณาใส่ password : ');
+            (pass == 'codecamp#5')? alert('ยินดีต้อนรับ') : (pass != null && pass != "")? alert('wrong password'):alert('ยกเลิก');
+        }else{
+            (check != null && check != "")? alert('ผมไม่รู้จักคุณ'):alert('ยกเลิก');
+        }
+    </script>
+</body>
+</html>

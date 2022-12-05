@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4901c3fc52.js" crossorigin="anonymous"></script>
+
+    <title>mimicFB</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-size: 1vw;
+            background-color: rgb(237, 246, 255);
+        }
+   
+        .main{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .left{
+            display: flex;
+            width: 50%;
+            height: 75vh;
+            flex-grow: 1;
+            
+            align-content: center;
+            flex-wrap: wrap;
+        }
+        .right{
+            display: flex;
+
+            width: 50%;
+            height: 75vh;
+            flex-grow: 1;
+            align-content: center;
+        }
+        .buttom{
+            background-color: rgba(255, 253, 253, 0.781);
+            width: 100%;
+            height: 25vh;
+            flex-grow: 2;
+        }
+        h1{
+            font-size: 4rem;
+            margin-left: 5vw;
+            color: rgb(32, 110, 255);
+           
+        }
+        .left p{
+            font-size: 2.5rem;
+            margin-left: 4.8rem;
+            color: rgb(169, 164, 164);
+            margin-top: 2vh;
+        }
+        .buttom p{
+            font-size: 2.5rem;
+           padding: 0px 1vw;
+            color: rgb(169, 164, 164);
+            margin-top: 2vh;
+        }
+        input{
+            width:90%;
+            padding: 1vh 3vh;
+            margin: 0.3vw 2vw;
+            display: inline-block;
+            border:0.05vw solid gray;
+            font-size: 2rem;
+            background-color: white;
+        }
+        .sec_form{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+        .sec_form p,strong{
+            font-size: 2.5rem;
+            color: rgb(169, 164, 164);
+            margin: 2vh auto 0vh auto;
+            border: none;
+            background-color: transparent;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+        form{
+            background-color: whitesmoke;
+            border-radius: 1rem;
+            text-align: center;
+            padding: 1vh;
+            margin-right: 2.5vw;
+            box-shadow: 1vw 1vw 1vw rgba(128, 128, 128, 0.738),-0.5vw -0.5vw 1vw rgba(128, 128, 128, 0.738) ;
+        }
+        button[type=submit]{
+            padding: 1vw;
+            margin: 0.3vw 2vw;
+            border: 0.1vw solid skyblue;
+            font-size: 2rem;
+            width: 90%;
+            color: rgb(252, 254, 255);
+            background-color: rgb(11, 97, 201);
+            border-radius: 1vw;
+        }
+      .forget{
+        display: block;
+        text-align: center;
+        color: rgb(136, 20, 136);
+        font-size: 1.5rem;
+        margin: 1vh;
+        background-color: whitesmoke;
+      }
+      .forget:hover{
+        cursor: pointer;
+        color: brown;
+      }
+      .forget:active{
+        color: red;
+      }
+      .register{
+        width:40%;
+        background-color: rgb(19, 169, 13);
+        padding: 1vh;
+        border:0.1vw solid green;
+        margin: 2vh auto;
+        display: block;
+        color: azure;
+        font-size: 2rem;
+        border-radius: 1vw;
+      }
+      .buttom p{
+        background-color: rgba(255, 253, 253, 0.781);
+        font-size: 1.3rem;
+        word-spacing: 1rem;
+        text-align: center;
+        margin-bottom: 1.4vh;
+      }
+      i{
+        background-color: rgba(255, 253, 253, 0.781);
+        font-size: 1.6rem;
+        color: rgb(133, 123, 123);
+      }
+      button:active{
+            background-color: blue;
+            color:red;
+        }
+      @media (max-width: 600px){
+        *{
+            font-size: 0.5rem;
+        }
+        .main{
+            height: 100vh;
+            flex-direction: column;
+        flex-wrap: nowrap;
+        }
+       .left,.buttom{
+        height: 20vh;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 1vw;
+       }
+       .right{
+        height: 60vh;
+        width: 100%;
+        flex-direction: column;
+       }
+    
+       form{
+        width: 90%;
+        height: 50vh;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       justify-content: space-around;
+       }
+       form >*:not(.forget){
+        height: 7vh;
+       }
+       .left p{
+        margin: 0.5vw;    }
+        .under_hr{
+            display: none;
+        }
+    }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="left">
+        <h1>faceboon</h1>
+        <p>
+            Faceboon หน้า web ทำเลียนแบบเพื่อการเรียนรู้และการลองผิดลองถูก
+        </p>
+    </div>
+    <div class="right">
+        <div class="sec_form">
+            <form action="">
+                
+                <input type="text" name="" id="" placeholder="E-mail or Phone number">
+                <input type="password" name="" id="" placeholder="Password">
+                <button type="submit">LOGIN</button>
+                <div class="forget">Forget password ?</div>
+               <div class="under_hr">
+                <hr style="width: 80%;margin:auto;opacity: 0.3;">
+
+               </div>
+                <button class="register">Register</button>
+            </form>
+            <p class="buildPage">
+                <strong>สร้าง Page </strong>
+                สำหรับบุคคลที่มีร้านและเงิน
+            </p>
+        </div>
+    </div>
+    <div class="buttom">
+        <p>ภาษาไทย
+            English(UK)
+            日本語
+            中文(简体)
+            Tiếng Việt
+            Français(France)
+            Deutsch
+            Русский
+            Español
+            Português(Brasil)
+            Italiano
+            <i class='fas fa-plus-circle'></i>
+            </p>
+            <hr style="width: 90%;margin:auto;opacity: 0.3;">
+            <p>
+                สมัคร
+                เข้าสู่ระบบ
+                Messenger
+                FacebookLite
+                Watch
+                สถานที่
+                เกม
+                Marketplace
+                Meta 
+                Pay
+                Oculus
+                Portal
+                Instagram
+                Bulletin
+                ในพื้นที่
+                โครงการระดมทุน
+                บริการ
+                ศูนย์ข้อมูลการลงคะแนนเสียง
+                กลุ่ม
+                เกี่ยวกับ
+                สร้างโฆษณา
+                สร้างเพจ
+                ผู้พัฒนา
+                ร่วมงานกับ Faceboon
+                ความเป็นส่วนตัว
+                คุกกี้
+                บลาๆๆๆๆ
+            </p>
+            <p>
+                Faceboon <i class="fa-regular fa-copyright"></i> 2022
+            </p>
+    </div>
+    </div>
+</body>
+</html>
