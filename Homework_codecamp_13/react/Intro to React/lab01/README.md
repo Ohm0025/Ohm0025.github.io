@@ -9,4 +9,4 @@
 ---
 # [file การบ้าน](introReact01.js)
 ---
-# [link-แสดงงาน](https://ohm0025.github.io/Homework_codecamp_13/react/Intro%20to%20React/lab01/index.html)
+# [link-แสดงงาน](https://ohm0025.github.io/Homework_codecamp_13/react/intro%20to%20react/lab01/index.html)
