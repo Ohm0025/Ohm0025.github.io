@@ -19,7 +19,7 @@
 ---
 # [file การบ้าน](index.html)
 ---
-# [link-แสดงงาน](https://ohm0025.github.io/html/%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%97%E0%B8%B5%E0%B9%881/index.html)
+# [link-แสดงงาน](https://ohm0025.github.io/Homework_codecamp_13/html/%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%97%E0%B8%B5%E0%B9%881/index.html)
 
 ---
 # หมายเหตุ : เนื่องจากเรียน online ไม่เคยเจอเพื่อนจึงไม่รู้จะเอาข้อมูลเพื่อนมาจากไหน

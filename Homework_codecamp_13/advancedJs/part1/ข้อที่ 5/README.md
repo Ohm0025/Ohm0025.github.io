@@ -1,0 +1,1 @@
+# เรื่อง Garbage Collection ไม่มี lab หรือ การบ้าน
